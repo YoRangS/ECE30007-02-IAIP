@@ -10,4 +10,6 @@
     - 2) 소스의 날짜
     - 3) 간단한 요약
   - 링크를 HDLMS Assignments 란에 작성하여 제출한다.
-#### [Scrap 1](https://github.com/YoRangS/ECE30007-02/blob/main/HW1/1.md)
+#### [Scrap 1 : 범용인공지능(AGI)은 구현 가능한 목표인가](https://github.com/YoRangS/ECE30007-02/blob/main/HW1/1.md)
+
+#### [Scrap 2 : 충격적인 인류의 미래 ㅣ 조던 피터슨 & 짐 캘러](https://github.com/YoRangS/ECE30007-02/blob/main/HW1/2.md)
