@@ -44,3 +44,13 @@ $\omega$(g(n))은 어떤 c>0에서든지 모든 $n>=n_0$에서 $0 <= cg(n) < f(n
 $\omega(f)=\Omega(f)-\theta(f)$
 
 $g(n)=o(f(n))$ <=> $f(n)=\omega(g(n))$
+
+### Proposition
+1. $f(n)\in\Theta(f(n))$
+2. $f(n)\in\Theta(g(n))$ <=> $g(n)\in\Theta(f(n))$
+3. $f(n)\in\Theta(g(n))$ and $g(n)\in\Theta(h(n))$ => $f(n)\in\Theta(h(n))$
+
+### 알고리즘의 시간복잡도
+$O(n^2)$: 알고리즘의 worst case
+$\Omega(n^2)$: 알고리즘의 best case
+$\theta(n^2)$: 위의 2개 
