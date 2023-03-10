@@ -15,3 +15,31 @@
 #### [Scrap 2 : 충격적인 인류의 미래 ㅣ 조던 피터슨 & 짐 캘러](https://github.com/YoRangS/ECE30007-02/blob/main/HW1/2.md)
 
 - - -
+
+## 2주차
+### O-notation
+$O(g(n))$은 모든 $n>=n_0$에서 $0<=f(n)<=cg(n)$을 만족하는 $c (c>0)$와 $n_0$이 있을 때 $f(n)$의 집합
+
+ex) $2n^2 = O(n^3)$, with $c=1$ and $n_0 = 2$
+
+### $\Omega$-notation
+$\Omega(g(n))$은 모든 $n>=n_0$에서 $0<=cg(n)<=f(n)$을 만족하는 $c (c>0)$와 $n_0$이 있을 때 $f(n)$의 집합
+
+ex) $\sqrt(n) = \Omega(lgn)$, with $c=1$ and $n_0 = 16$
+
+### $\Theta$ -notation
+$\Theta(g(n))$은 모든 $n>=n_0$에서 $0<=c_1g(n)<=f(n)<=c_2g(n)$을 만족하는 $c_1, c_2 (c_1>0, c_2>0)$와 $n_0$이 있을 때 $f(n)$의 집합
+
+ex) $n^2/2-2n = \Theta(n^2)$, with $c_1=1/4$, $c_2=1/2$ and $n_0 = 8$
+
+### o-notation
+o(g(n))은 어떤 c>0에서든지 모든 $n>=n_0$에서 $0<=f(n)<cg(n)$을 만족하는 $n_0>0$이 존재할 때 $f(n)$의 집합
+
+$o(f)=O(f)-\theta(f)$
+
+## $\omega$-notation
+$\omega$(g(n))은 어떤 c>0에서든지 모든 $n>=n_0$에서 $0<=cg(n)<f(n)$을 만족하는 $n_0>0$이 존재할 때 $f(n)$의 집합
+
+$\omega(f)=\Omega(f)-\theta(f)$
+
+$g(n)=o(f(n))$ <=> $f(n)=\omega(g(n))$
