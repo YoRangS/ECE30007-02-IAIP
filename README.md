@@ -70,3 +70,5 @@ $\theta(n^2)$: 위의 2개
 ### Solving recurrence equations
 #### Iteration method
 #### Substitution method
+#### Recursion-tree method
+#### Master method
